@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use Jenssegers\Agent\Agent;
+use Illuminate\Http\Request;
+use App\Http\Components\Router;
 
 
 
@@ -18,6 +19,7 @@ class avaController extends Controller
     public $phone = null;
     public $mac = null;
     public $platform = null;
+    public $routerComponent = null;
     public function __construct()
     {
         $agent = new Agent();
@@ -29,10 +31,10 @@ class avaController extends Controller
         $this->tablet = $agent->isTablet();
         $this->desktop = $agent->isDesktop();
         $this->phone = $agent->isPhone();
+        $this->routerComponent = new Router();
     }
-    public function index()
+    public function index(Request $request)
     {
-        dd($this->phone);
-        return view('welcome');
+        $this->routerComponent->switch($request->getHttpHost(), $this->desktop, $this->tablet, $this->mobile);
     }
 }
