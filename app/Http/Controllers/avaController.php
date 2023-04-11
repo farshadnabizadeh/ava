@@ -35,6 +35,6 @@ class avaController extends Controller
     }
     public function index(Request $request)
     {
-        $this->routerComponent->switch($request->getHttpHost(), $this->desktop, $this->tablet, $this->mobile);
+        $this->routerComponent->switch($request->getRequestUri(), $this->desktop, $this->tablet, $this->mobile);
     }
 }
