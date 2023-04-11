@@ -598,6 +598,8 @@ button {
 .contact {
      padding-top: 90px;
      font-family: Poppins;
+     position: relative !important;
+     z-index: 999 !important;
 }
 
 .main_form {
