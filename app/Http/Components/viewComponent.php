@@ -8,6 +8,6 @@ class viewComponent
 {
     public function index()
     {
-        echo (view('welcome'));
+        echo (view('index'));
     }
 }
