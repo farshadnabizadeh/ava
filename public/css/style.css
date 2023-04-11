@@ -299,6 +299,12 @@ button {
 
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
+.stickyNavbar{
+    position:sticky !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 999999 !important;
+}
 .header {
      background: #0c0f38;
      width: 100%;

@@ -1,4 +1,4 @@
-<header>
+<header class="stickyNavbar">
     <!-- header inner -->
     <div class="header">
         <div class="container">
