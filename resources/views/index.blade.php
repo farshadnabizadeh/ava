@@ -3,4 +3,10 @@
 @section('content')
     @include('viewsComponent.loaderComponent')
     @include('viewsComponent.headerComponent')
+    @include('viewsComponent.bannerComponent')
+    @include('viewsComponent.hostingComponent')
+    @include('viewsComponent.servicesComponent')
+    @include('viewsComponent.whyComponent')
+    @include('viewsComponent.contactComponent')
+    @include('viewsComponent.footerComponent')
 @endsection
