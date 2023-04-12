@@ -302,7 +302,20 @@ button {
     color: #fdd430;
 }
 
-
+/*--------------------------------------------------------------------- signin-btn ---------------------------------------------------------------------*/
+.signin-signup-btn {
+    border: 1px solid #ffffff !important;
+    padding: 10px 0;
+    border-radius: 20px !important;
+    cursor: pointer !important;
+}
+.alignment{
+    display: inline-flex !important;
+    align-items: center !important;
+}
+.marginLeft{
+    margin-left: 10px !important;
+}
 /*-- header area --*/
 
 
