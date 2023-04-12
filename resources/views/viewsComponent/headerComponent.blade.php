@@ -25,13 +25,13 @@
                                     <a class="nav-link" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"> About </a>
-                                </li>
-                                <li class="nav-item">
                                     <a class="nav-link" href="#service"> Service</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#contact">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#crm">CRM</a>
                                 </li>
                                 <li class="nav-item signin-signup-btn">
                                     <a class="nav-link" href="#">Signin</a>
