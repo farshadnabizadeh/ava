@@ -641,12 +641,9 @@ button {
     width: 100%;
     border: #fff solid 1px;
     border-radius: 15px;
-    padding-top: 38px;
+    padding-top: 30px;
     background: #fff;
-}
-
-.textarea::placeholder {
-    transform: translate(0, -6px);
+    resize: none;
 }
 
 .contact .main_form .send {
