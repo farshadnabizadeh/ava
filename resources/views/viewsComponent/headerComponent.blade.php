@@ -34,6 +34,9 @@
                                     <a class="nav-link" href="#contact">Contact</a>
                                 </li>
                                 <li class="nav-item">
+                                    <a class="nav-link" href="#">Sign In</a>
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link" href="#">Sign Up</a>
                                 </li>
                             </ul>
