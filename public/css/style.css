@@ -5,9 +5,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
-/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+/*****----------------------------------------
+ 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
+ 3) font-family: 'Source Sans Pro', sans-serif;
  ----------------------------------------*****/
 
 
@@ -29,6 +32,7 @@
 
 * {
     box-sizing: border-box !important;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 html {
@@ -239,7 +243,13 @@ button {
 
 
 /**-- heading section --**/
+.banner-alignment {
+    transform: translateY(60px);
+}
 
+.banner-y-transform {
+    transform: translateY(45px);
+}
 
 /*---------------------------- preloader area ----------------------------*/
 
@@ -311,7 +321,7 @@ button {
 .header {
     background: #0c0f38;
     width: 100%;
-    padding: 40px 40px 40px 40px;
+    padding: 20px 40px 20px 40px;
 }
 
 .logo a {
