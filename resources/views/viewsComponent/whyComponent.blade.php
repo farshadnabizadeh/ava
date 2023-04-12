@@ -24,7 +24,7 @@
                         sites
                         still </p>
                 </div>
-                <a class="read_more bg" href="#">Read More</a>
+                <a class="read_more bg btn-radius" href="#">Read More</a>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                 <div class="why-box">
@@ -36,7 +36,7 @@
                         sites
                         still </p>
                 </div>
-                <a class="read_more bg" href="#">Read More</a>
+                <a class="read_more bg btn-radius" href="#">Read More</a>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                 <div class="why-box">
@@ -48,7 +48,7 @@
                         sites
                         still </p>
                 </div>
-                <a class="read_more bg" href="#">Read More</a>
+                <a class="read_more bg btn-radius" href="#">Read More</a>
             </div>
         </div>
     </div>

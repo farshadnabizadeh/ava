@@ -9,7 +9,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
-                    <a href="#">Get Started</a>
+                    <a class="btn-radius" href="#">Get Started</a>
                 </div>
             </div>
             <div class="col-md-7">

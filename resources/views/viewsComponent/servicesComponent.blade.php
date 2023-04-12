@@ -54,7 +54,7 @@
                     <p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.</p>
                 </div>
             </div>
-            <a class="read_more" href="#">Read More</a>
+            <a class="read_more btn-radius" href="#">Read More</a>
         </div>
     </div>
 </div>

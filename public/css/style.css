@@ -199,6 +199,10 @@ button {
     cursor: pointer;
 }
 
+.btn-radius {
+    border-radius: 10px !important;
+}
+
 .full {
     float: left;
     width: 100%;
