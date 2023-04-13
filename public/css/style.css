@@ -335,6 +335,11 @@ button {
     background: #0c0f38;
     width: 100%;
     padding: 20px 40px 20px 40px;
+    border-bottom: 1px solid #ffffff !important;
+}
+
+.logo{
+    transform: translateY(10px);
 }
 
 .logo a {
@@ -461,7 +466,7 @@ button {
 
 .Services {
     margin-top: 90px;
-    padding: 90px 0;
+    padding: 130px 0;
     background: #0c0f38;
     font-family: Poppins;
 }
