@@ -338,6 +338,10 @@ button {
     border-bottom: 1px solid #ffffff !important;
 }
 
+.logo{
+    transform: translateY(10px);
+}
+
 .logo a {
     font-size: 40px;
     font-weight: bold;
