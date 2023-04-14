@@ -12,6 +12,6 @@ class viewComponent
     }
     public function panel()
     {
-        echo (view('welcome'));
+        echo (view('viewsComponent.loginComponent'));
     }
 }

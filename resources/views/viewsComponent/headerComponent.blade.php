@@ -34,7 +34,8 @@
                                     <a class="nav-link" href="#crm">CRM</a>
                                 </li>
                                 <li class="nav-item signin-signup-btn">
-                                    <a class="nav-link" href="#">Signin</a>
+                                    <a class="nav-link"
+                                        href="{{ url('/login') }}">Signin</a>
                                 </li>
                                 <li class="nav-item signin-signup-btn marginLeft">
                                     <a class="nav-link" href="#">Signup</a>
