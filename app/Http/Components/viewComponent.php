@@ -10,4 +10,8 @@ class viewComponent
     {
         echo (view('index'));
     }
+    public function panel()
+    {
+        echo (view('welcome'));
+    }
 }
