@@ -1,5 +1,5 @@
 @extends('viewsComponent.adminMasterComponent')
-@section('Title', 'AVA CLOUD : : Login')
+@section('Title', 'AVA CLOUD')
 @section('Content')
     <div class="container-scroller">
         <div class="container-fluid page-body-wrapper full-page-wrapper">
