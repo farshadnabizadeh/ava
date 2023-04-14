@@ -18102,6 +18102,7 @@ dl li {
 
 .auth .auth-form-light {
     background: #ffffff;
+    border-radius: 10px !important;
 }
 
 .auth .auth-form-light select {
