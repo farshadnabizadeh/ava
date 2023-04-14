@@ -4,8 +4,9 @@ namespace App\Http\Components;
 
 use Illuminate\Http\Request;
 use Ixudra\Curl\Facades\Curl;
+
+use App\Http\Components\desktopComponent;
 use App\Http\Components\environmentVariable;
-use App\Http\Components\viewComponent;
 
 
 class Router
@@ -13,21 +14,21 @@ class Router
     public $SERVER__1 = null;
     public $SERVER__2 = null;
     public $SERVER__3 = null;
-    public $VIEW = null;
+    public $viewRouting = null;
     public function __construct()
     {
         $enviromentVariable = new environmentVariable();
-        $viewComponent = new viewComponent();
+        $desktopComponent = new desktopComponent();
         $this->SERVER__1 = $enviromentVariable->SERVER__1();
         $this->SERVER__2 = $enviromentVariable->SERVER__2();
         $this->SERVER__3 = $enviromentVariable->SERVER__3();
-        $this->VIEW = $viewComponent;
+        $this->viewRouting = $desktopComponent;
     }
     public function switch($__pathname, $__desktop, $__tablet, $__mobile)
     {
         if (env('CLOUD__PROCESS')) {
             if ($__desktop) {
-                $this->VIEW->index();
+                $this->viewRouting->index($__pathname);
             } else {
                 if ($__tablet) {
                     echo (Curl::to($this->SERVER__2 . $__pathname)->get());
@@ -36,7 +37,7 @@ class Router
                 }
             }
         } else {
-            # Desktop view process
+            $this->viewRouting->index($__pathname);
         }
     }
 }
