@@ -22,6 +22,9 @@ class desktopComponent
             case '/login':
                 $this->viewComponent->panel();
                 break;
+            case '/register':
+                $this->viewComponent->register();
+                break;
             default:
                 dd('welcome');
                 $this->viewComponent->index();

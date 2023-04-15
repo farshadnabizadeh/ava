@@ -7,7 +7,7 @@
                     <div class="full">
                         <div class="center-desk">
                             <div class="logo">
-                                <a href="index.html"><img src="images/logo2.png" alt="#" /></a>
+                                <a href="{{ url('/') }}"><img src="images/logo2.png" alt="#" /></a>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@
                                     <a class="nav-link" href="{{ url('/login') }}">Signin</a>
                                 </li>
                                 <li class="nav-item signin-signup-btn marginLeft">
-                                    <a class="nav-link" href="#">Signup</a>
+                                    <a class="nav-link" href="{{ url('/register') }}">Signup</a>
                                 </li>
                             </ul>
                         </div>
