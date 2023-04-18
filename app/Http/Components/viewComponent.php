@@ -12,6 +12,10 @@ class viewComponent
     }
     public function panel()
     {
-        echo (view('welcome'));
+        echo (view('viewsComponent.loginComponent'));
+    }
+    public function register()
+    {
+        echo (view('viewsComponent.registerComponent'));
     }
 }

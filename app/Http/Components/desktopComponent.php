@@ -19,12 +19,16 @@ class desktopComponent
             case '/':
                 $this->viewComponent->index();
                 break;
-            case '/panel':
+            case '/login':
                 $this->viewComponent->panel();
                 break;
+            case '/register':
+                $this->viewComponent->register();
+                break;
             default:
-                dd('welcome to system');
-                // $this->viewComponent->index();
+                dd('welcome');
+                $this->viewComponent->index();
+                break;
         }
     }
 }
