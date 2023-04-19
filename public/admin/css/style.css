@@ -3550,6 +3550,11 @@ pre code {
     margin-left: 91.66667%;
 }
 
+.borderRadius {
+    border-radius: 5px !important;
+    border: 1px solid #555 !important;
+}
+
 @media (min-width: 576px) {
     .col-sm {
         -ms-flex-preferred-size: 0;
