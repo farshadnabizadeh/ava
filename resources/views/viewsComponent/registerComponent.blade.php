@@ -23,7 +23,7 @@
                                     placeholder="Email">
                             </div>
                             <div class="form-group">
-                                <select class="form-control form-control-lg borderRadius" id="exampleFormControlSelect2">
+                                <select class="form-control form-control-lg borderRadius paddingX" id="exampleFormControlSelect2">
                                     <option>Country</option>
                                     <option>United States of America</option>
                                     <option>United Kingdom</option>
@@ -33,7 +33,7 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control form-control-lg borderRadius translateX" id="exampleInputPassword1"
+                                <input type="password" class="form-control form-control-lg borderRadius" id="exampleInputPassword1"
                                     placeholder="Password">
                             </div>
                             <div class="mb-4">

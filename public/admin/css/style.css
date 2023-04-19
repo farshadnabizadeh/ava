@@ -3555,6 +3555,10 @@ pre code {
     border: 1px solid #555 !important;
 }
 
+.paddingX {
+  padding: 0px 25px !important;
+}
+
 @media (min-width: 576px) {
     .col-sm {
         -ms-flex-preferred-size: 0;
