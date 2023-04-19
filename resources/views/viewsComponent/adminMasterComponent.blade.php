@@ -22,6 +22,30 @@
     <link rel="stylesheet" href="{{ asset('admin/css/style.css') }}">
     <!-- End layout styles -->
     <link rel="shortcut icon" href="{{ asset('images/fevicon.png') }}" />
+    <style>
+        .loader_bg {
+            position: fixed;
+            z-index: 9999999;
+            background: #fff;
+            width: 100%;
+            height: 100%;
+        }
+
+        .loader {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .loader img {
+            width: 280px;
+        }
+    </style>
 </head>
 
 <body>
@@ -42,6 +66,17 @@
     <!-- Custom js for this page -->
     <script src="{{ asset('admin/js/dashboard.js') }}"></script>
     <!-- End custom js for this page -->
+    <!-- preloader scripts -->
+    <!-- Javascript files-->
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/popper.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('js/jquery-3.0.0.min.js') }}"></script>
+    <script src="{{ asset('js/plugin.js') }}"></script>
+    <!-- sidebar -->
+    <script src="{{ asset('js/jquery.mCustomScrollbar.concat.min.js') }}"></script>
+    <script src="{{ asset('admin/js/custom.js') }}"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 </body>
 
 </html>
